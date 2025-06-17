@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm run dev --prefix client",
     "server": "nodemon server.js",
     "build": "npm run build --prefix client",
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/merja-shourov/jamuna-post#readme",
   "dependencies": {
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
